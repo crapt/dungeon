@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game">
+      <UniqueIdentifier>{94b32783-bc4e-4c8c-955e-08642abf6fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Layer">
+      <UniqueIdentifier>{921ce8eb-dc4e-4118-b200-3a4c4dfc7910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Map">
+      <UniqueIdentifier>{34b86796-ecc5-4db9-9d4a-489d82885107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sprite">
+      <UniqueIdentifier>{c23f4b10-9e46-4fd1-b7b5-2b8f69bf33bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TouchEvent">
+      <UniqueIdentifier>{9557706c-9c50-45d9-a535-e5e69dc727be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\csvpp">
+      <UniqueIdentifier>{cb7c1d1d-29f3-4190-8127-ef7e4e6e558c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\csvpp\impl">
+      <UniqueIdentifier>{a7597b41-cfa2-45dc-a1e5-260030e70bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\csvpp\sfinae">
+      <UniqueIdentifier>{e76d11e8-e90f-4207-8749-1e144adbeb73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\csvpp\writer.cpp">
+      <Filter>src\csvpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\csvpp\parser.cpp">
+      <Filter>src\csvpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UnitProperty.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameProcess.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Unit.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapScrollView.cpp">
+      <Filter>src\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TouchEventSimulatorMapControl.cpp">
+      <Filter>src\TouchEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TouchEventProcess.cpp">
+      <Filter>src\TouchEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TouchEventProcessController.cpp">
+      <Filter>src\TouchEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpriteUnit.cpp">
+      <Filter>src\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LayerUnit.cpp">
+      <Filter>src\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LayerDungeon.cpp">
+      <Filter>src\Layer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\parser_manipulators.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\push_line.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\quote.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\set.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\split_member.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\vector.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\writer.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\writer_manipulators.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\array.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\base_object.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\csv.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\csv_string.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\deque.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\exception.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\headers.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\iter.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\list.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\map.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\pair.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\parser.h">
+      <Filter>src\csvpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\impl\macros.h">
+      <Filter>src\csvpp\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\impl\smanip.h">
+      <Filter>src\csvpp\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\impl\base.h">
+      <Filter>src\csvpp\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\impl\containers.h">
+      <Filter>src\csvpp\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\sfinae\has_iterator.h">
+      <Filter>src\csvpp\sfinae</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\sfinae\has_value_type.h">
+      <Filter>src\csvpp\sfinae</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\sfinae\sfinae.h">
+      <Filter>src\csvpp\sfinae</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\sfinae\has_const_iterator.h">
+      <Filter>src\csvpp\sfinae</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csvpp\sfinae\has_fcn_serialize.h">
+      <Filter>src\csvpp\sfinae</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UnitProperty.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameDefine.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameProcess.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Unit.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapScrollView.h">
+      <Filter>src\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\dmap.h">
+      <Filter>src\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TouchEventProcessController.h">
+      <Filter>src\TouchEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TouchEventSimulatorMapControl.h">
+      <Filter>src\TouchEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TouchEventProcess.h">
+      <Filter>src\TouchEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpriteUnit.h">
+      <Filter>src\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LayerUnit.h">
+      <Filter>src\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DungeonBuilding.h">
+      <Filter>src\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\aStarLibrary.h">
+      <Filter>src\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LayerDungeon.h">
+      <Filter>src\Layer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
